@@ -1,0 +1,79 @@
+/**inputs**/
+
+List<String> jobNames = new ArrayList<String>();
+		List<Integer> runninTimeOfJobs = new ArrayList<Integer>();
+		int priority = 40;
+		jobNames.add("A");
+		jobNames.add("B");
+		jobNames.add("C");
+		jobNames.add("D");
+		runninTimeOfJobs.add(10);
+		runninTimeOfJobs.add(80);
+		runninTimeOfJobs.add(100);
+		runninTimeOfJobs.add(20);
+		RoundRobin rr = new RoundRobin(runninTimeOfJobs,10,jobNames);
+		MLFQ mlfq = new MLFQ(runninTimeOfJobs,10,jobNames,priority);
+
+/************************************************************/
+
+		List<String> jobNames = new ArrayList<String>();
+		List<Integer> runninTimeOfJobs = new ArrayList<Integer>();
+		int priority = 30;
+		jobNames.add("A");
+		jobNames.add("B");
+		jobNames.add("C");
+		jobNames.add("D");
+		runninTimeOfJobs.add(10);
+		runninTimeOfJobs.add(80);
+		runninTimeOfJobs.add(80);
+		runninTimeOfJobs.add(100);
+		RoundRobin rr = new RoundRobin(runninTimeOfJobs,10,jobNames);
+		MLFQ mlfq = new MLFQ(runninTimeOfJobs,10,jobNames,priority);
+
+/*************************************************************/
+
+		List<String> jobNames = new ArrayList<String>();
+		List<Integer> runninTimeOfJobs = new ArrayList<Integer>();
+		int priority = 30;
+		jobNames.add("A");
+		jobNames.add("B");
+		jobNames.add("C");
+		jobNames.add("D");
+		runninTimeOfJobs.add(60);
+		runninTimeOfJobs.add(80);
+		runninTimeOfJobs.add(50);
+		runninTimeOfJobs.add(100);
+		RoundRobin rr = new RoundRobin(runninTimeOfJobs,10,jobNames);
+		MLFQ mlfq = new MLFQ(runninTimeOfJobs,10,jobNames,priority);
+
+/*************************************************************/
+
+		List<String> jobNames = new ArrayList<String>();
+		List<Integer> runninTimeOfJobs = new ArrayList<Integer>();
+		int priority = 30;
+		jobNames.add("A");
+		jobNames.add("B");
+		jobNames.add("C");
+		jobNames.add("D");
+		runninTimeOfJobs.add(60);
+		runninTimeOfJobs.add(80);
+		runninTimeOfJobs.add(150);
+		runninTimeOfJobs.add(100);
+		RoundRobin rr = new RoundRobin(runninTimeOfJobs,10,jobNames);
+		MLFQ mlfq = new MLFQ(runninTimeOfJobs,10,jobNames,priority);
+
+/*************************************************************/
+
+		List<String> jobNames = new ArrayList<String>();
+		List<Integer> runninTimeOfJobs = new ArrayList<Integer>();
+		int priority = 30;
+		jobNames.add("A");
+		jobNames.add("B");
+		jobNames.add("C");
+		jobNames.add("D");
+		runninTimeOfJobs.add(10);
+		runninTimeOfJobs.add(80);
+		runninTimeOfJobs.add(50);
+		runninTimeOfJobs.add(100);
+		RoundRobin rr = new RoundRobin(runninTimeOfJobs,10,jobNames);
+		MLFQ mlfq = new MLFQ(runninTimeOfJobs,10,jobNames,priority);
