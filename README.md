@@ -13,4 +13,4 @@ but are terrible for turnaround time
 
 According to the quantum size we have coosen for MLFQ and also the priority boost back time of the MLFQ. However is the response time the average turn around time is always better in MLFQ
 
-the inputs and outputs compared and shown in the graphs attached.
+the outputs for the given inputs compared and shown in the graphs attached.
