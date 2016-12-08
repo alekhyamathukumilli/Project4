@@ -1,5 +1,5 @@
 # CPU Scheduling Algorithms RR and MLFQ
-The project is about comparing the two CPU scheduling algorithms Round Robin and Multi Level Feedback Queue with respect to turnaround time
+This project is regarding comparision between the two CPU scheduling algorithms Round Robin and Multi Level Feedback Queue with respect to turnaround time
 
 The fundamental problem MLFQ tries to address is two-fold. First, it
 would like to optimize turnaround time, which may be obtained by running shorter jobs first;
@@ -10,8 +10,13 @@ at the screen, waiting for a process to finish), and thus minimize response
 time; Round Robin algorithm would reduce response time
 but are terrible for turnaround time
 
-According to the  priority boost back time of the MLFQ. The average turn around time is always better in MLFQ
-the outputs(are in the file outputs.txt) for the given inputs(are in the file input.txt) are compared and shown in the graphs attached.
+According to the priority boost back time, the average turn around time is always better in MLFQ
+
+Outputs(are in the file outputs.txt) for all the given inputs(are in the file input.txt) are compared and shown in the graphs attached.
 
 Instructions:
-Once the project is downloaded and the inputs from the input file is added in the main method of CPUScheduler class and run the outputs will be seen.
+- Download the project
+- Copy the inputs from input txt file
+- Add them to the main method of CPUScheduler class 
+- Run
+- Output is generated
