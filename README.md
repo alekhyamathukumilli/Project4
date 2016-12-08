@@ -11,6 +11,5 @@ at the screen, waiting for a process to finish), and thus minimize response
 time; Round Robin algorithm would reduce response time
 but are terrible for turnaround time
 
-According to the quantum size we have coosen for MLFQ and also the priority boost back time of the MLFQ. However is the response time the average turn around time is always better in MLFQ
-
-the outputs for the given inputs compared and shown in the graphs attached.
+According to the  priority boost back time of the MLFQ. The average turn around time is always better in MLFQ
+the outputs(are in the file outputs.txt) for the given inputs(are in the file input.txt) are compared and shown in the graphs attached.
