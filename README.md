@@ -13,3 +13,6 @@ but are terrible for turnaround time
 
 According to the  priority boost back time of the MLFQ. The average turn around time is always better in MLFQ
 the outputs(are in the file outputs.txt) for the given inputs(are in the file input.txt) are compared and shown in the graphs attached.
+
+Instructions:
+Once the project is downloaded and the inputs from the input file is added in the main method of CPUScheduler class and run the outputs will be seen.
