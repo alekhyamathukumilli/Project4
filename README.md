@@ -1,6 +1,5 @@
 # CPU Scheduling Algorithms RR and MLFQ
-the project is about comparing the two CPU scheduling algoritmns
-Round Robin and Multi Level Feedback Queue
+The project is about comparing the two CPU scheduling algorithms Round Robin and Multi Level Feedback Queue with respect to turnaround time
 
 The fundamental problem MLFQ tries to address is two-fold. First, it
 would like to optimize turnaround time, which may be obtained by running shorter jobs first;
