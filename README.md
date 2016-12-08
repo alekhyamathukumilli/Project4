@@ -1,5 +1,5 @@
 # CPU Scheduling Algorithms RR and MLFQ
-I was trying to compare the two CPU scheduling algoritmns
+the project is about comparing the two CPU scheduling algoritmns
 Round Robin and Multi Level Feedback Queue
 
 The fundamental problem MLFQ tries to address is two-fold. First, it
